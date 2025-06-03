@@ -13,7 +13,7 @@ const Projects = () => {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
-    fetch('${process.env.REACT_APP_API_URL}/api/projects')
+    fetch(`${process.env.REACT_APP_API_URL}/api/projects`)
       .then(res => res.json())
       .then(data => setProjects(data))
       .catch(err => console.error('Failed to fetch projects:', err));
