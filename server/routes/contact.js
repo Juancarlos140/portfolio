@@ -19,11 +19,13 @@ router.post('/', async (req, res) => {
     });
 
     const mailOptions = {
-      from: `"${name}" <${email}>`,
-      to: process.env.EMAIL_USER,
-      subject: 'New Message from Portfolio',
-      text: message,
+        from: `"${name}" <${process.env.EMAIL_USER}>`, // 🧠 must be your Gmail
+        to: process.env.EMAIL_USER,                    // 📥 send to yourself
+        replyTo: email,                                // 💬 lets you reply to user
+        subject: 'New Message from Portfolio',
+        text: `From: ${name} <${email}>\n\n${message}`, // 📄 include user info in body
     };
+
 
     await transporter.sendMail(mailOptions);
     res.json({ success: true, message: 'Email sent successfully!' });
