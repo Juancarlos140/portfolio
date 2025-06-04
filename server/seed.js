@@ -9,7 +9,7 @@ const sampleProjects = [
   {
     title: 'Mapp App',
     description: 'My team and I created an application that relpicates a social media messaging app with an interactive world map.',
-    techStack: ['Python', 'Alpaca API', 'React', 'MongoDB'],
+    techStack: ['Laravel', 'Inertia', 'Composer', 'React', 'Tailwind', 'PostgreSQL'],
     demoLink: 'https://github.com/alex-305/map-app',
     sourceCode: 'https://github.com/alex-305/map-app',
   },
