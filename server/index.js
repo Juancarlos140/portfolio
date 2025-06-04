@@ -14,6 +14,10 @@ app.use(express.json());
 const projectRoutes = require('./routes/projects');
 app.use('/api/projects', projectRoutes);
 
+const contactRoutes = require('./routes/contact');
+app.use('/api/contact', contactRoutes);
+
+
 // DB Connect
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,

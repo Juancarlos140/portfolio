@@ -11,6 +11,7 @@ const Contact = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    console.log(`${process.env.REACT_APP_API_URL}/api/contact`);
     try {
       const res = await fetch(`${process.env.REACT_APP_API_URL}/api/contact`, {
         method: 'POST',

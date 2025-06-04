@@ -16,7 +16,7 @@ const sampleProjects = [
   {
     title: 'Secure Document Management',
     description: ' collaborated with a group in order to create a full-stack application which functions as a Secure Document Management System (SDMS)',
-    techStack: ['React', 'Tailwind', 'Express', 'MongoDB'],
+    techStack: ['React', 'Tailwind', 'Node', 'Express', 'MongoDB'],
     demoLink: 'https://github.com/IskaIV/Secure-Document-Management-System',
     sourceCode: 'https://github.com/IskaIV/Secure-Document-Management-System',
   },
