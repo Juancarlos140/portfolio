@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Juancarlos Alguera, a backend-focused software engineer." />
+    <title>Juancarlos Alguera — Backend Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Juancarlos Alguera home">JA<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="availability" href="mailto:Juancarlosalguera@yahoo.com"><i></i> Available for opportunities</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">01 — Backend-focused engineer</p>
+          <h1>I build the systems<br />behind <em>great</em> products.</h1>
+          <p class="intro">Computer Science graduate student focused on reliable APIs, thoughtful data models, and useful tools that make complex work feel simple.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">See selected work <span>↘</span></a>
+            <a class="text-link" href="Resume_Juancarlos_Alguera_Backend_Engineer_2026-08.pdf" target="_blank">View résumé <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art reveal" aria-label="Abstract illustration of a backend system" role="img">
+          <div class="sun"></div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="window window-main">
+            <div class="window-top"><span></span><span></span><span></span><b>service.ts</b></div>
+            <div class="code"><i>01</i><code><strong>const</strong> build = <mark>() =&gt;</mark> {</code><i>02</i><code>&nbsp;&nbsp;<strong>return</strong> <mark>reliable</mark>;</code><i>03</i><code>}</code></div>
+          </div>
+          <div class="window window-small"><span class="pulse"></span><b>API</b><small>online</small></div>
+          <div class="star star-one">✦</div><div class="star star-two">✦</div>
+        </div>
+        <a class="scroll-hint" href="#work"><span></span> Scroll to explore</a>
+      </section>
+
+      <section class="marquee" aria-label="Technical skills"><div><span>Python</span><b>✦</b><span>Flask</span><b>✦</b><span>PostgreSQL</span><b>✦</b><span>Docker</span><b>✦</b><span>React</span><b>✦</b><span>GitHub Actions</span><b>✦</b><span>Python</span><b>✦</b><span>Flask</span><b>✦</b></div></section>
+
+      <section class="work section-shell" id="work">
+        <div class="section-heading reveal"><p class="eyebrow">02 — Selected work</p><h2>Things I’ve made<br /><em>work harder.</em></h2><p>I enjoy bringing an idea all the way from an endpoint sketch to a dependable product.</p></div>
+        <article class="project feature-project reveal">
+          <div class="project-visual review-visual"><div class="review-sidebar"><span></span><span></span><span></span><span></span></div><div class="review-content"><div class="review-title">Pull request #184 <small>Open</small></div><div class="review-lines"><p><b>14</b> <code>def validate_input(data):</code></p><p><b>15</b> <code>&nbsp;&nbsp;return sanitize(data)</code></p><p class="flag"><b>16</b> <code>&nbsp;&nbsp;db.execute(query)</code><mark>Potential SQL injection</mark></p><p><b>17</b> <code>&nbsp;&nbsp;commit()</code></p></div></div><div class="ai-note">✦ AI review completed<br /><small>3 suggestions found</small></div></div>
+          <div class="project-info"><p class="project-number">01 / 02</p><h3>AI-Powered<br />Code Review<br />Assistant</h3><p>Automated, line-level feedback for GitHub pull requests — built to catch bugs, style issues, and security risks before they ship.</p><ul><li>Flask &amp; REST APIs</li><li>PostgreSQL</li><li>Docker &amp; CI/CD</li></ul></div>
+        </article>
+        <article class="project document-project reveal">
+          <div class="project-info"><p class="project-number">02 / 02</p><h3>Secure Document<br />Management<br />System</h3><p>A role-based workspace for sharing and editing sensitive documents with confidence and real-time collaboration.</p><a class="text-link" href="https://github.com/IskaIV/Secure-Document-Management-System" target="_blank" rel="noreferrer">View on GitHub <span>↗</span></a></div>
+          <div class="project-visual docs-visual"><div class="docs-nav"><b>vault.</b><span>Overview</span><span class="active">Documents</span><span>Shared with me</span></div><div class="docs-main"><div class="docs-top"><p>Documents</p><button>+ New document</button></div><div class="document-row"><span class="file-icon blue">▤</span><b>Product roadmap</b><small>Edited 2m ago</small><em>•••</em></div><div class="document-row"><span class="file-icon coral">▤</span><b>Q2 planning notes</b><small>Edited yesterday</small><em>•••</em></div><div class="document-row"><span class="file-icon yellow">▤</span><b>Team handbook</b><small>Edited Jun 03</small><em>•••</em></div></div><div class="permission-card"><span>🔒</span><p><b>Access protected</b><br /><small>Role-based permissions enabled</small></p></div></div>
+        </article>
+      </section>
+
+      <section class="about" id="about"><div class="section-shell about-grid"><div class="about-copy reveal"><p class="eyebrow">03 — A little about me</p><h2>Technical by nature.<br /><em>Human</em> by default.</h2><p>I’m Juancarlos — a backend-focused developer from Homestead, Florida. I’m currently pursuing an M.S. in Computer Science at Florida International University while building practical systems and sharpening the craft.</p><a class="button button-light" href="mailto:Juancarlosalguera@yahoo.com">Let’s talk <span>↗</span></a></div><div class="facts reveal"><div><span>Currently</span><b>Waymo Field<br />Technician</b></div><div><span>Studying</span><b>M.S. Computer Science<br />at FIU · 2028</b></div><div><span>Previously</span><b>B.S. Computer Science<br />at FSU · 2025</b></div><div><span>Based in</span><b>Homestead, Florida</b></div></div></div></section>
+      <section class="contact section-shell" id="contact"><p class="eyebrow reveal">04 — Get in touch</p><div class="contact-row reveal"><h2>Have an idea?<br /><em>Let’s build it.</em></h2><a class="big-email" href="mailto:Juancarlosalguera@yahoo.com">Juancarlosalguera<br />@yahoo.com <span>↗</span></a></div></section>
+    </main>
+    <footer><a class="brand" href="#top">JA<span>.</span></a><p>© <span id="year"></span> Juancarlos Alguera</p><a href="https://github.com/IskaIV" target="_blank" rel="noreferrer">GitHub ↗</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
